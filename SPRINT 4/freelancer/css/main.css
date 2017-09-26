@@ -1,0 +1,191 @@
+/*
+ * Estilos de tu proyecto
+ font-family: 'Baloo Bhaijaan', cursive;
+ #2c3e50
+ #18bc9c - celeste
+ */  
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+}
+ 
+*:before,  
+*:after { 
+  -webkit-box-sizing: border-box; 
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  /* Establece la fuente de Google aquí */
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 1.71429;
+  background-color: #fff;
+}
+
+img {
+  vertical-align: middle;
+}
+header{
+  position: fixed;
+  background: #2c3e50;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+header h3{
+   font-size: 3em;
+   color: white;
+   float: left;
+   overflow: auto;
+}
+
+a{
+  color: white;
+  font-size: 2em;
+  text-decoration: none;
+  text-align: right;
+}
+
+a:hover {
+  color: #E95853;
+}
+
+
+#home{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #18bc9c;
+  text-align: center;
+}
+
+#home .container{
+  color: white;
+  padding: 70px;
+}
+
+.container img{
+  margin-top: 200px;
+}
+
+.container h1{
+  font-size: 5em;
+}
+
+.container p{
+  font-size: 2em;
+}
+
+/* portafolio */
+
+.seccionImg{
+  display: inline-block;
+  background-position: center;
+  text-align: center;
+  margin-top: 100px;
+  margin-left: 80px;
+}
+
+.images{
+  width: 300px;
+  height: 300px;
+}
+
+.portContainer h1{
+	text-align: center;
+	font-size: 3em;
+}
+
+
+
+
+/*modal visualizacion de imagen*/
+#myImg {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+  display: none; 
+  position: fixed; 
+  z-index: 1000; 
+  padding-top: 100px; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.9);
+}
+
+/* Modal Content (image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {    
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover, .close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* footer */
+
+footer{
+  background-color: #212121;
+  width: 1346px;
+  height: 100%;
+  color: white;
+  text-align: center;
+}
+

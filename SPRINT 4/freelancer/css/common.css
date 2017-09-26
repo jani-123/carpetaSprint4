@@ -1,0 +1,77 @@
+/*
+ * Estilos reutilizables
+ */ 
+
+.mb-0 {
+  margin-bottom: 0;
+}
+  
+.mt-0 { 
+  margin-top: 0; 
+} 
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.font{
+	font-family: 'Baloo Bhaijaan',cursive;
+}
+.link{
+	font-weight: 700;
+	padding: 21px;
+	display: inline-block;
+}
+
+.logo{
+	float: right;
+}
+
+.line{
+	display: inline-block;
+    width: 200px;
+    border-radius: 5px;
+    padding: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: white;
+}
+.line1{
+	display: block;
+
+    border-radius: 5px;
+    padding: 5px;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: black;
+
+} 
+.star{
+	display: block;
+	float: left;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.moverStar{
+	margin-left: 300px;
+}
+.row:before, .row:after{
+	content: " ";
+	display: table;
+}
+
+.row:after{
+	clear: both;
+}
+
+.col-3{
+	/* (3/12) * 100 */
+	width: 25%;
+}
+
+.col-4{
+	/* (4/12) * 100 */
+	width: 25%;
+}
+
